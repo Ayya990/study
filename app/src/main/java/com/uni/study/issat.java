@@ -57,7 +57,7 @@ public class issat extends AppCompatActivity {
     }
 
     private void initializeViews() {
-        etSearch = findViewById(R.id.etSearch);
+        etSearch = findViewById(R.id.search1);
         lvProducts = findViewById(R.id.lvProducts);
     }
 
