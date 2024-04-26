@@ -125,8 +125,9 @@ public class addDocs extends AppCompatActivity {
                 }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onProgress(@NonNull UploadTask.TaskSnapshot snapshot) {
-                        double progress=(100.0* snapshot.getBytesTransferred())/snapshot.getTotalByteCount();
-                        progressDialog.setMessage("File Uploaded.." + (int) progress + "%");
+                                double progress=(100.0* snapshot.getBytesTransferred())/snapshot.getTotalByteCount();
+                                progressDialog.setMessage("File Uploaded.." + (int) progress + "%");
+
                     }
                 });
 
@@ -135,3 +136,4 @@ public class addDocs extends AppCompatActivity {
 
     }
 }
+

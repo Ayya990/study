@@ -8,43 +8,43 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="321dp"
-        android:layout_height="223dp"
+        android:layout_width="421dp"
+        android:layout_height="217dp"
         android:layout_marginStart="42dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo2" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="336dp"
-        android:layout_height="88dp"
+        android:layout_width="338dp"
+        android:layout_height="89dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="18dp"
         android:text="Elevate your learning experience."
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="34dp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="454dp"
-        android:layout_height="278dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="62dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        android:layout_width="900dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="624dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.274"
         app:srcCompat="@drawable/_495457" />
 
     <Button
@@ -56,13 +56,28 @@
         android:layout_marginTop="27dp"
         android:layout_marginEnd="142dp"
         android:layout_marginBottom="52dp"
+        android:background="@drawable/backtext"
+        android:backgroundTint="#7870D7"
         android:text="Let's Start"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0"/>
+        app:layout_constraintVertical_bias="0.117" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="534dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/inverse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
